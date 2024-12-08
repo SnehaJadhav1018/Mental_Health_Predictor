@@ -116,5 +116,5 @@ if st.session_state['loggedIn']:
 else:
     login()
 
-
+st.sidebar.info('This app is maintained by Sneha')
 
