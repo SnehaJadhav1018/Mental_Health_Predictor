@@ -73,7 +73,7 @@ def main_page():
     social_support = st.sidebar.slider('Social Support (1-5)', 1, 5, 3)
     financial_stress = st.sidebar.slider('Financial Stress (1-5)', 1, 5, 3)
     diet_quality = st.sidebar.slider('Diet Quality (1-5)', 1, 5, 4)
-    alcohol_consumption = st.sidebar.slider('Alcohol Consumption (1-5)', 1, 5, 2)
+    alcohol_consumption = st.sidebar.slider('Alcohol Consumption (0-5)', 0, 5, 2)
     smoking_habit = st.sidebar.selectbox('Smoking Habit', [0, 1], format_func=lambda x: 'Non-Smoker' if x == 0 else 'Smoker')
 
 
