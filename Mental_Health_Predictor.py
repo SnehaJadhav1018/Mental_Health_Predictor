@@ -52,7 +52,7 @@ def login():
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
-        if username == 'admin' and password == 'admin':
+        if username == 'Sneha' and password == 'Pratya':
             st.session_state['loggedIn'] = True
         else:
             st.error("Invalid username or password")
